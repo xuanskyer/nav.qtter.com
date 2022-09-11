@@ -59,19 +59,19 @@ function bilibili_advice(keyword, callback) {
 首页的网站列表在`data`目录下的`sites.json`文件配置,存放二级分类,子项目格式如下:
 ```json
 {
-    "name": "233博客",
+    "name": "导航博客",
     "icon": "./assets/icon.ico",
-    "url": "https://233i.cn/",
-    "describe": "本站作者常年拖更的博客"
+    "url": "https://nav.qtter.com/",
+    "describe": "一个博客"
 }
 ```
 只需修改这两个文件就可以自定义实用功能.后续会增加更多的功能接口  
 ### 网页背景
-没有单独写进配置文件,默认是跟随bing壁纸每日更新,实用的我服务器上的api,接口地址:https://api.233i.cn/bing/api.php
+没有单独写进配置文件,默认是跟随bing壁纸每日更新,实用的我服务器上的api,接口地址:https://api.nav.qtter.com/bing/api.php
 使用也非常简单,由于服务器那边采用302跳转方式,所以直接加载进`img`标签即可
 
 ### 演示demo
-**DEMO** => https://233i.cn/nav_page/  
+**DEMO** => https://nav.qtter.com/nav_page/  
 **gitee pages部署**=> https://liuyike233.gitee.io/vue-web-navigation/
 
 ### 其他

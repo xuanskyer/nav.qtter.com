@@ -3,10 +3,10 @@
         "icon": "",
         "data": [
             {
-                "name": "233博客",
+                "name": "个人博客",
                 "icon": "./assets/icon.ico",
-                "url": "https://233i.cn/",
-                "describe": "本站作者常年拖更的博客"
+                "url": "https://nav.qtter.com/",
+                "describe": "博客"
             },
             {
                 "name": "Dribbble",
