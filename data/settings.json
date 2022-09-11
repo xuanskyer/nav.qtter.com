@@ -4,6 +4,14 @@
     "searchEngine": {
         "selected": "baidu",
         "engines": {
+            "google": {
+                "name": "Google",
+                "mainColor": "#ff6840",
+                "textColor": "white",
+                "icon": "./assets/searchEngineIcons/google.svg",
+                "api": "https://www.google.com/search?q=%keyword%",
+                "advice_func":"google_advice"
+            },
             "baidu": {
                 "name": "百度",
                 "mainColor": "#2932E1",
@@ -19,14 +27,6 @@
                 "icon": "./assets/searchEngineIcons/bilibili.svg",
                 "api": "https://search.bilibili.com/all?keyword=%keyword%",
                 "advice_func":"bilibili_advice"
-            },
-            "google": {
-                "name": "Google",
-                "mainColor": "#ff6840",
-                "textColor": "white",
-                "icon": "./assets/searchEngineIcons/google.svg",
-                "api": "https://www.google.com/search?q=%keyword%",
-                "advice_func":"google_advice"
             },
             "github": {
                 "name": "GitHub",
